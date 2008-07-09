@@ -6,7 +6,7 @@
 <Files .gitignore>
   Order allow,deny
   Deny from all
-</File>
+</Files>
 
 <Files Capfile>
   Order allow,deny
