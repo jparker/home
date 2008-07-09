@@ -17,8 +17,7 @@ dl dt {
   margin-top: 1em;
 }
 dl dd {
-  margin-bottom: 0.25em;
-  margin-left: 2em;
+  margin: 0.5em 2em;
 }
 
 a {
