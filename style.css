@@ -12,12 +12,30 @@ ul {
   padding: 0.5em 0;
 }
 
+dl dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+dl dd {
+  margin-bottom: 0.25em;
+  margin-left: 2em;
+}
+
 a {
   color: #090;
 }
 a:visited {
-  color: #00a;
+  color: #009;
 }
+
+h1 a {
+  color: #999;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: #009;
+}
+
 #bd ul li a:hover {
   background-color: #090;
   color: #fff;
