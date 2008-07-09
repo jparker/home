@@ -1,14 +1,14 @@
-<Directory .git>
+<Files .git>
   Order allow,deny
   Deny from all
-</Directory>
+</Files>
 
-<File .gitignore>
+<Files .gitignore>
   Order allow,deny
   Deny from all
 </File>
 
-<File Capfile>
+<Files Capfile>
   Order allow,deny
   Deny from all
-</File>
+</Files>
