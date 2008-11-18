@@ -1,0 +1,8 @@
+@deflayout honk
+Random 10 15 50 1
+Intro 50 1
+Random 10 25 40 1
+Diamond 15 1
+Random 10 35 30 1
+loop 1
+@end deflayout

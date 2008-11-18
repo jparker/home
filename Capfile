@@ -1,6 +1,3 @@
-desc 'Deploy site'
-task :deploy do
-  system %[
-    rsync -a --exclude=.DS_Store --exclude='.git*' . papango.urgetopunt.com:public_html
-  ]
-end
+load 'deploy' if respond_to?(:namespace) # cap2 differentiator
+Dir['vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
+load 'config/deploy'
