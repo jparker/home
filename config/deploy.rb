@@ -9,7 +9,7 @@ set :scm_verbose, true
 set :deploy_via, :remote_cache
 set :branch, 'master'
 
-set :gateway, 'shell.speakeasy.net'
+set :gateway, 'awooga@shell.speakeasy.net'
 
 role :app, 'papango.urgetopunt.com'
 role :web, 'papango.urgetopunt.com'
