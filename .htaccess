@@ -14,7 +14,7 @@
 </Files>
 
 <Files scotland.html>
-  AuthUserFile .htpasswd
+  AuthUserFile /home/jparker/.public_html/system/.htpasswd
   AuthType Basic
   AuthName "Scotland/Ireland 2009"
   Require valid-user
