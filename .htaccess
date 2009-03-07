@@ -13,3 +13,9 @@
   Deny from all
 </Files>
 
+<Files scotland.html>
+  AuthUserFile .htpasswd
+  AuthType Basic
+  AuthName "Scotland/Ireland 2009"
+  Require valid-user
+</Files>
