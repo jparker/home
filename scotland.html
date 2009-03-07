@@ -8,6 +8,37 @@
   <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
   <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen,projection" /><[endif]-->
   <style type="text/css">
+body {
+  background: #bdf;
+}
+.container {
+  background: #fff;
+  border: 2px solid #59a;
+  padding: 1em;
+}
+#foot {
+  border-top: 1px solid #aaa;
+  color: #aaa;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+#foot a {
+  color: inherit;
+}
+a {
+  color: #59a;
+}
+a:hover {
+  background-color: #bdf;
+  color: #59a;
+}
+h1, h2, dt {
+  color: #59a;
+}
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
 table {
     border: 1px solid #aaa;
 }
@@ -79,17 +110,17 @@ td {
         <dl>
           <dt class="edi"><a href="http://www.theetoncollection.com/">The Glasshouse</a></dt>
           <dd>
-            Edinburgh, UK<br />
+            Edinburgh, Scotland<br />
             +44 (131) 525-8200
           </dd>
           <dt class="edi"><a href="http://www.tenhillplace.com/">Ten Hill Place</a></dt>
           <dd>
-            Edinburgh, UK<br />
+            Edinburgh, Scotland<br />
             +44 (131) 557-9797<br />
           </dd>
           <dt class="bel"><a href="http://www.malmaison.com/">Malmaison</a></dt>
           <dd>
-            Belfast, UK<br />
+            Belfast, Northern Ireland<br />
             +44 (28) 9022-0200<br />
           </dd>
           <dt class="dub"><a href="http://www.centralhotel.ie/">Central Hotel</a></dt>
@@ -105,9 +136,15 @@ td {
         </dl>
       </div>
       <div id="info" class="span-8 last">
+        <h2>Weather</h2>
+        <ul>
+          <li><a href="http://is.gd/mdA6">Edinburgh, Scotland</a></li>
+          <li><a href="http://is.gd/mdAi">Belfast, Northern Ireland</a></li>
+          <li><a href="http://is.gd/mdAt">Dublin, Ireland</a></li>
+        </ul>
         <h2>Time Conversion</h2>
         <p>
-          The UK and Ireland are 8 hours ahead of Pacific Time.
+          The UK and Ireland are 8<strong>*</strong> hours ahead of Pacific Time.
         </p>
         <dl>
           <dt>When it is 8:00AM in Los Angeles...</dt>
@@ -116,7 +153,8 @@ td {
           <dd>...it will be 12:00AM in Los Angeles.</dd>
         </dl>
         <p>
-          (Actually, Daylight Savings in the UK and Ireland begins on 29 March. As California enters Daylight Savings on 8 Mar, the UK and Ireland will only be seven hours ahead for the first several days of the trip.)
+          <strong>*</strong>
+          <em>Actually, Daylight Savings in the UK and Ireland begins on 29 March, so for the first several days they will be only seven hours ahead.</em>
         </p>
       </div>
       <table id="calendar" class="calendar span-24">
