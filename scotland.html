@@ -12,6 +12,7 @@ body { background:#bdf; }
 .container { background:#fff; border:1px solid #59a; padding:1em; }
 #foot { border-top:1px solid #aaa; color:#aaa; margin-top:1em; padding-top:1em; }
 #foot a { color:inherit; }
+#flight div { padding: 0em 1em; }
 a { color:#59a; }
 a:hover { background-color:#bdf; color:#59a; }
 h1, h2, dt { color:#59a; }
@@ -19,18 +20,22 @@ ul { list-style-type:none; margin-left:0; }
 table { border:1px solid #aaa; }
 th { background:#ddd; border-bottom:1px solid #aaa; }
 td { padding:0.25em 1em 1em 0.25em; }
-.edi { background:#fca; color:#b50; }
-.edi a { color:inherit; }
-.edi a:hover { background:#b50; color:#fca; text-decoration:none; }
-.bel { background:#acf; color:#00a; }
-.bel a { color:inherit; }
-.bel a:hover { background:#00a; color:#acf; text-decoration:none; }
-.dub { background:#fac; color:#a00; }
-.dub a { color:inherit; }
-.dub a:hover { background:#a00; color:#fac; text-decoration:none; }
-.enn { background:#cfa; color:#070; }
-.enn a { color:inherit; }
-.enn a:hover { background:#070; color:#cfa; text-decoration:none; }
+.limbo { background:#ddd; color: #666; }
+.glasshouse { background:#ffa; color:#770; }
+.glasshouse a { color:inherit; }
+.glasshouse a:hover { background:#770; color:#ffa; text-decoration:none; }
+.tenhill { background:#fca; color:#b50; }
+.tenhill a { color:inherit; }
+.tenhill a:hover { background:#b50; color:#fca; text-decoration:none; }
+.malmaison { background:#acf; color:#00a; }
+.malmaison a { color:inherit; }
+.malmaison a:hover { background:#00a; color:#acf; text-decoration:none; }
+.central { background:#fac; color:#a00; }
+.central a { color:inherit; }
+.central a:hover { background:#a00; color:#fac; text-decoration:none; }
+.radsas { background:#cfa; color:#070; }
+.radsas a { color:inherit; }
+.radsas a:hover { background:#070; color:#cfa; text-decoration:none; }
   </style>
 </head>
 <body>
@@ -39,67 +44,69 @@ td { padding:0.25em 1em 1em 0.25em; }
       <h1>Scotland &amp; Ireland 2009</h1>
     </div>
     <div id="body" class="span-24">
-      <div id="contact" class="span-7 colborder">
+      <div id="contact" class="span-8">
         <h2>Contact Information</h2>
         <dl>
-          <dt class="edi"><a href="http://www.theetoncollection.com/">The Glasshouse</a></dt>
+          <dt class="glasshouse"><a href="http://www.theetoncollection.com/">The Glasshouse</a></dt>
           <dd>
             Edinburgh, Scotland<br />
             +44 (131) 525-8200
           </dd>
-          <dt class="edi"><a href="http://www.tenhillplace.com/">Ten Hill Place</a></dt>
+          <dt class="tenhill"><a href="http://www.tenhillplace.com/">Ten Hill Place</a></dt>
           <dd>
             Edinburgh, Scotland<br />
             +44 (131) 557-9797<br />
           </dd>
-          <dt class="bel"><a href="http://www.malmaison.com/">Malmaison</a></dt>
+          <dt class="malmaison"><a href="http://www.malmaison.com/">Malmaison</a></dt>
           <dd>
             Belfast, Northern Ireland<br />
             +44 (28) 9022-0200<br />
           </dd>
-          <dt class="dub"><a href="http://www.centralhotel.ie/">Central Hotel</a></dt>
+          <dt class="central"><a href="http://www.centralhotel.ie/">Central Hotel</a></dt>
           <dd>
             Dublin, Ireland<br />
             +353 (1) 679-7302
           </dd>
-          <dt class="enn"><a href="http://www.templegatehotel.com/">Temple Gate</a></dt>
-          <dd>
-            Ennis, County Clare, Ireland<br />
-            +353 (65) 682-3300
+	  <dt class="radsas"><a href="http://www.radissonhotelgalway.com/">Radisson SAS</a></dt>
+	  <dd>
+	    Galway City, County Galway, Ireland<br />
+	    +353 (91) 538-300
           </dd>
         </dl>
       </div>
-      <div id="flight" class="span-8">
-        <h2>Flight Information</h2>
-        <dl class="flight">
-          <dt>American #1358 San Diego to Chicago</dt>
-          <dd>
-            Departs SAN 23 Mar 2009 2:25PM PDT<br />
-            Arrives ORD 23 Mar 2009 8:25PM CDT
-          </dd>
-          <dt>American #98 Chicago to London</dt>
-          <dd>
-            Departs ORD 23 Mar 2009 11:40PM CDT<br />
-            Arrives LHR 24 Mar 2009 12:00PM GMT
-          </dd>
-          <dt>American #6489 London to Edinburgh</dt>
-          <dd>
-            Departs LHR 24 Mar 2009 2:45PM GMT<br />
-            Arrives EDI 24 Mar 2009 4:05PM GMT<br />
-          </dd>
-        </dl>
-        <dl class="flight">
-          <dt>American #93 Dublin to Chicago</dt>
-          <dd>
-            Departs DUB 8 Apr 2009 10:35AM IST<br />
-            Arrives ORD 8 Apr 2009 12:35PM CDT
-          </dd>
-          <dt>American #1605 Chicago to San Diego</dt>
-          <dd>
-            Departs ORD 8 Apr 2009 4:10PM CDT<br />
-            Arrives SAN 8 Apr 2009 6:30PM PDT
-          </dd>
-        </dl>
+      <div id="flight" class="limbo span-8">
+	<div>
+	  <h2>Flight Information</h2>
+	  <dl class="flight">
+	    <dt>American #1358 San Diego to Chicago</dt>
+	    <dd>
+	      Departs SAN 23 Mar 2009 2:25PM PDT<br />
+	      Arrives ORD 23 Mar 2009 8:25PM CDT
+	    </dd>
+	    <dt>American #98 Chicago to London</dt>
+	    <dd>
+	      Departs ORD 23 Mar 2009 11:40PM CDT<br />
+	      Arrives LHR 24 Mar 2009 12:00PM GMT
+	    </dd>
+	    <dt>American #6489 London to Edinburgh</dt>
+	    <dd>
+	      Departs LHR 24 Mar 2009 2:45PM GMT<br />
+	      Arrives EDI 24 Mar 2009 4:05PM GMT<br />
+	    </dd>
+	  </dl>
+	  <dl class="flight">
+	    <dt>American #93 Dublin to Chicago</dt>
+	    <dd>
+	      Departs DUB 8 Apr 2009 10:35AM IST<br />
+	      Arrives ORD 8 Apr 2009 12:35PM CDT
+	    </dd>
+	    <dt>American #1605 Chicago to San Diego</dt>
+	    <dd>
+	      Departs ORD 8 Apr 2009 4:10PM CDT<br />
+	      Arrives SAN 8 Apr 2009 6:30PM PDT
+	    </dd>
+	  </dl>
+	</div>
       </div>
       <div id="info" class="span-8 last">
         <h2>Weather</h2>
@@ -113,10 +120,10 @@ td { padding:0.25em 1em 1em 0.25em; }
           The UK and Ireland are 8<strong>*</strong> hours ahead of Pacific Time.
         </p>
         <dl>
-          <dt>When it is 8:00AM in Los Angeles...</dt>
-          <dd>...it will be 4:00PM in the UK.</dd>
-          <dt>When it is 8:00AM in the UK...</dt>
-          <dd>...it will be 12:00AM in Los Angeles.</dd>
+          <dt>When it is 8:00am in Los Angeles...</dt>
+          <dd>...it will be 4:00pm the same day in the UK.</dd>
+          <dt>When it is 8:00pm in the Los Angeles...</dt>
+          <dd>...it will be 4:00am the next day in the UK.</dd>
         </dl>
         <p>
           <strong>*</strong>
@@ -134,27 +141,27 @@ td { padding:0.25em 1em 1em 0.25em; }
           <th>Sun</th>
         </tr>
         <tr>
-          <td>Mar 23</td>
-          <td class="edi">Mar 24</td>
-          <td class="edi">Mar 25</td>
-          <td class="edi">Mar 26</td>
-          <td class="edi">Mar 27</td>
-          <td class="edi">Mar 28</td>
-          <td class="bel">Mar 29</td>
+          <td class="limbo">Mar 23</td>
+          <td class="glasshouse">Mar 24</td>
+          <td class="glasshouse">Mar 25</td>
+          <td class="tenhill">Mar 26</td>
+          <td class="tenhill">Mar 27</td>
+          <td class="tenhill">Mar 28</td>
+          <td class="malmaison">Mar 29</td>
         </tr>
         <tr>
-          <td class="bel">Mar 30</td>
-          <td class="bel">Mar 31</td>
-          <td class="dub">Apr 1</td>
-          <td class="dub">Apr 2</td>
-          <td class="dub">Apr 3</td>
-          <td class="enn">Apr 4</td>
-          <td class="enn">Apr 5</td>
+          <td class="malmaison">Mar 30</td>
+          <td class="malmaison">Mar 31</td>
+          <td class="central">Apr 1</td>
+          <td class="central">Apr 2</td>
+          <td class="central">Apr 3</td>
+          <td class="radsas">Apr 4</td>
+          <td class="radsas">Apr 5</td>
         </tr>
         <tr>
-          <td class="dub">Apr 6</td>
-          <td class="dub">Apr 7</td>
-          <td class="dub">Apr 8</td>
+          <td class="central">Apr 6</td>
+          <td class="central">Apr 7</td>
+          <td class="limbo">Apr 8</td>
           <td>Apr 9</td>
           <td>Apr 10</td>
           <td>Apr 11</td>
