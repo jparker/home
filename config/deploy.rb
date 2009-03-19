@@ -1,7 +1,7 @@
 set :application, 'home'
 set :user, 'jparker'
 set :use_sudo, false
-set :deploy_to, '/home/jparker/.public_html'
+set :deploy_to, '/home/jparker/_public_html'
 
 set :repository, 'git@github.com:jparker/home.git'
 set :scm, :git
@@ -11,9 +11,9 @@ set :branch, 'master'
 
 set :gateway, 'awooga@shell.speakeasy.net'
 
-role :app, 'papango.urgetopunt.com'
-role :web, 'papango.urgetopunt.com'
-role :db,  'papango.urgetopunt.com', :primary => true
+role :app, 'moa.urgetopunt.com'
+role :web, 'moa.urgetopunt.com'
+role :db,  'moa.urgetopunt.com', :primary => true
 
 namespace :deploy do
   task :finalize_update do
