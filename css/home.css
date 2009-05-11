@@ -2,10 +2,10 @@ body {background-color:#ccc;}
 .container {background-color:#fff;border:1px solid #999;padding:1em;}
 #head {border-bottom:1px solid #eee;margin-bottom:1em;}
 #foot {border-top:1px solid #eee;margin-top:1em;}
-#head h1 {color:#ccc;}
-#foot p, #foot a {color:#ccc;}
-#foot a:hover {background-color:transparent;color:#000;text-decoration:underline;}
+#head h1 {color:#9b9;font-weight:bold;}
+#head h1 span {color: #070;}
+#foot p, #foot a {color:#aaa;}
+#foot a:hover {background:#ccc;color:#666;text-decoration:none;}
 ul {list-style-type:none;margin-left:0;}
-a {color:#090;}
-a:visited {color:#00a;}
-a:hover {background-color:#090;color:#fff;text-decoration:none;}
+a {color:#070;}
+a:hover {background:#bdb;color:#070;text-decoration:none;}
