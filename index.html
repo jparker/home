@@ -126,10 +126,13 @@
           <input type="submit" value="Wikipedia &rarr;" class="span-3" />
         </p>
       </form>
-      <form action="http://www.answers.com/main/ntquery" method="get" accept-charset="utf-8">
+      <form action="http://www.google.com/dictionary" method="get" accept-charset="utf-8">
         <p>
-          <input type="text" name="s" value="" class="span-5" />
-          <input type="submit" name="go" value="Answers &rarr;" class="span-3" />
+          <input type="hidden" name="langpair" value="en|en" />
+          <input type="hidden" name="hl" value="en" />
+          <input type="hidden" name="aq" value="f" />
+          <input type="text" name="q" value="" class="span-5" />
+          <input type="submit" value="Dictionary &rarr;" class="span-3" />
         </p>
       </form>
       <form action="http://decoder.americom.com/decoderscript" method="get" accept-charset="utf-8">
