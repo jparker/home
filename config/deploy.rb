@@ -11,9 +11,9 @@ set :branch, 'master'
 
 set :gateway, 'awooga@shell.speakeasy.net'
 
-role :app, 'moa.urgetopunt.com'
-role :web, 'moa.urgetopunt.com'
-role :db,  'moa.urgetopunt.com', :primary => true
+role :app, 'kiwi.urgetopunt.com'
+role :web, 'kiwi.urgetopunt.com'
+role :db,  'kiwi.urgetopunt.com', :primary => true
 
 namespace :deploy do
   task :finalize_update do
