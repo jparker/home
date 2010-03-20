@@ -13,9 +13,9 @@
   Deny from all
 </Files>
 
-<Files scotland.html>
+<Files scotland*.html>
   AuthUserFile /home/jparker/_public_html/shared/system/.htpasswd
   AuthType Basic
-  AuthName "Scotland/Ireland 2009"
+  AuthName "Winsome's Private Data"
   Require valid-user
 </Files>
