@@ -16,8 +16,51 @@
     <div id="head" class="span-24">
       <h1>urge<span>to</span>punt</h1>
     </div>
-    <div id="body" class="span-15 colborder">
-      <div class="span-6">
+    <div id="side" class="span-7 prepend-top colborder">
+      <form action="http://www.imdb.com/find" method="get" accept-charset="utf-8">
+        <p>
+          <input type="text" name="q" value="" class="span-5" />
+          <input type="submit" value="IMDB &rarr;" class="span-3" />
+        </p>
+      </form>
+      <form action="http://wikipedia.org/wiki/Special:Search" method="get" accept-charset="utf-8">
+        <p>
+          <input type="hidden" name="go" value="Go" />
+          <input type="text" name="search" value="" class="span-5" />
+          <input type="submit" value="Wikipedia &rarr;" class="span-3" />
+        </p>
+      </form>
+      <form action="http://www.google.com/dictionary" method="get" accept-charset="utf-8">
+        <p>
+          <input type="hidden" name="langpair" value="en|en" />
+          <input type="hidden" name="hl" value="en" />
+          <input type="hidden" name="aq" value="f" />
+          <input type="text" name="q" value="" class="span-5" />
+          <input type="submit" value="Dictionary &rarr;" class="span-3" />
+        </p>
+      </form>
+      <form action="http://decoder.americom.com/decoderscript" method="get" accept-charset="utf-8">
+        <p>
+          <input type="text" name="Search" value="" maxlength="10" class="span-5" />
+          <input type="submit" value="Area Code &rarr;" class="span-3" />
+        </p>
+      </form>
+      <form action="http://whois.domaintools.com/go/" method="get" accept-charset="utf-8">
+        <p>
+          <input type="hidden" name="service" value="whois" />
+          <input type="text" name="q" value="" class="span-5" />
+          <input type="submit" value="Whois &rarr;" class="span-3" />
+        </p>
+      </form>
+      <form action="http://www.crh.noaa.gov/zipcity.php" method="post" accept-charset="utf-8">
+        <p>
+          <input type="text" name="inputstring" value="" class="span-5" />
+          <input type="submit" value="Weather &rarr;" class="span-3" />
+        </p>
+      </form>
+    </div>
+    <div id="body" class="span-16 last">
+      <div class="span-5">
         <ul>
           <li><a href="http://urgetopunt.com/">Work</a></li>
           <li><a href="http://www.linkedin.com/in/urgetopunt">LinkedIn Profile</a></li>
@@ -83,16 +126,32 @@
           </li>
         </ul>
         <ul>
-          <li><a href="http://railscasts.com/">Railscasts</a></li>
-          <li><a href="http://lighthouseapp.com/">Lighthouse</a></li>
-          <li><a href="http://github.com/">Github</a></li>
-          <li><a href="http://rpm.newrelic.com/">New Relic RPM</a></li>
-          <li><a href="http://hoptoadapp.com/">Hoptoad</a></li>
-          <li><a href="http://www.pivotaltracker.com/">Pivotal Tracker</a></li>
+          <li>
+            <a href="http://railscasts.com/">Railscasts</a> |
+            <a href="http://vimcasts.org/">Vimcasts</a>
+          </li>
+          <li>
+            <a href="http://www.linode.com/">Linode</a> |
+            <a href="http://www.slicehost.com/">Slicehost</a>
+          </li>
+          <li>
+            <a href="http://github.com/">Github</a> |
+            <a href="http://www.codaset.com/">Codaset</a>
+          </li>
+          <li>
+            <a href="http://rpm.newrelic.com/">New Relic RPM</a> |
+            <a href="http://scoutapp.com/">Scout</a>
+          </li>
+          <li>
+            <a href="http://hoptoadapp.com/">Hoptoad</a> |
+            <a href="http://www.getexceptional.com/">Exceptional</a>
+          </li>
+          <li><a href="http://www.pivotaltracker.com/">Pivotal Tracker</a>
+          </li>
           <li><a href="http://aws.amazon.com/">Amazon Web Services</a></li>
         </ul>
       </div>
-      <div class="span-3 last">
+      <div class="span-5 last">
         <ul>
           <li><a href="http://www.skyscraperpage.com/">Skyscrapers</a></li>
           <li><a href="http://earthquake.usgs.gov/">Earthquakes</a></li>
@@ -112,49 +171,6 @@
           <li><a href="http://dilbert.com/blog/">Dilbert Blog</a></li>
         </ul>
       </div>
-    </div>
-    <div id="side" class="span-8 prepend-top last">
-      <form action="http://www.imdb.com/find" method="get" accept-charset="utf-8">
-        <p>
-          <input type="text" name="q" value="" class="span-5" />
-          <input type="submit" value="IMDB &rarr;" class="span-3" />
-        </p>
-      </form>
-      <form action="http://wikipedia.org/wiki/Special:Search" method="get" accept-charset="utf-8">
-        <p>
-          <input type="hidden" name="go" value="Go" />
-          <input type="text" name="search" value="" class="span-5" />
-          <input type="submit" value="Wikipedia &rarr;" class="span-3" />
-        </p>
-      </form>
-      <form action="http://www.google.com/dictionary" method="get" accept-charset="utf-8">
-        <p>
-          <input type="hidden" name="langpair" value="en|en" />
-          <input type="hidden" name="hl" value="en" />
-          <input type="hidden" name="aq" value="f" />
-          <input type="text" name="q" value="" class="span-5" />
-          <input type="submit" value="Dictionary &rarr;" class="span-3" />
-        </p>
-      </form>
-      <form action="http://decoder.americom.com/decoderscript" method="get" accept-charset="utf-8">
-        <p>
-          <input type="text" name="Search" value="" maxlength="10" class="span-5" />
-          <input type="submit" value="Area Code &rarr;" class="span-3" />
-        </p>
-      </form>
-      <form action="http://whois.domaintools.com/go/" method="get" accept-charset="utf-8">
-        <p>
-          <input type="hidden" name="service" value="whois" />
-          <input type="text" name="q" value="" class="span-5" />
-          <input type="submit" value="Whois &rarr;" class="span-3" />
-        </p>
-      </form>
-      <form action="http://www.crh.noaa.gov/zipcity.php" method="post" accept-charset="utf-8">
-        <p>
-          <input type="text" name="inputstring" value="" class="span-5" />
-          <input type="submit" value="Weather &rarr;" class="span-3" />
-        </p>
-      </form>
     </div>
     <div id="foot" class="span-24">
       <p class="small">
