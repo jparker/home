@@ -3,7 +3,7 @@ set :user, 'jparker'
 set :use_sudo, false
 set :deploy_to, '/home/jparker/_public_html'
 
-set :repository, 'git@github.com:jparker/home.git'
+set :repository, 'git@codaset.com:urgetopunt/home.git'
 set :scm, :git
 set :scm_verbose, true
 set :deploy_via, :remote_cache
