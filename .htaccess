@@ -13,7 +13,7 @@
   Deny from all
 </Files>
 
-<Files scotland*.html>
+<Files scotland*.html japan*.html>
   AuthUserFile /home/jparker/_public_html/shared/system/.htpasswd
   AuthType Basic
   AuthName "Winsome's Private Data"
