@@ -26,3 +26,10 @@
   AuthName "Winsome's Private Data"
   Require valid-user
 </Files>
+
+<Files uk20*.html>
+  AuthUserFile /home/jparker/_public_html/shared/system/.htpasswd
+  AuthType Basic
+  AuthName "Winsome's Private Data"
+  Require valid-user
+</Files>
