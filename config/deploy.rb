@@ -13,9 +13,9 @@ if ENV['CAP_SSH_GATEWAY']
   set :gateway, ENV['CAP_SSH_GATEWAY']
 end
 
-role :app, 'ash.urgetopunt.com'
-role :web, 'ash.urgetopunt.com'
-role :db,  'ash.urgetopunt.com', :primary => true
+role :app, 'beech.urgetopunt.com'
+role :web, 'beech.urgetopunt.com'
+role :db,  'beech.urgetopunt.com', :primary => true
 
 namespace :deploy do
   task :finalize_update do
