@@ -174,32 +174,32 @@
         %form(action="http://www.imdb.com/find" method="get" accept-charset="utf-8")
           %p
             %input(type="text" tabindex="1" name="q" value="" class="span-5")
-            %input(type="submit" value="IMDB &#8594;" class="span-3")
+            %button(type='submit' class='span-3') IMDB &#8594;
         %form(action="http://wikipedia.org/wiki/Special:Search" method="get" accept-charset="utf-8")
           %p
             %input(type="hidden" name="go" value="Go")
             %input(type="text" tabindex="1" name="search" value="" class="span-5")
-            %input(type="submit" value="Wikipedia &#8594;" class="span-3")
+            %button(type="submit" class="span-3") Wikipedia &#8594;
         %form(action="http://www.google.com/dictionary" method="get" accept-charset="utf-8")
           %p
             %input(type="hidden" name="langpair" value="en|en")
             %input(type="hidden" name="hl" value="en")
             %input(type="hidden" name="aq" value="f")
             %input(type="text" tabindex="1" name="q" value="" class="span-5")
-            %input(type="submit" value="Dictionary &#8594;" class="span-3")
+            %button(type="submit" class="span-3") Dictionary &#8594;
         %form(action="http://decoder.americom.com/decoderscript" method="get" accept-charset="utf-8")
           %p
             %input(type="text" tabindex="1" name="Search" value="" maxlength="10" class="span-5")
-            %input(type="submit" value="Area Code &#8594;" class="span-3")
+            %button(type="submit" class="span-3") Area Code &#8594;
         %form(action="http://whois.domaintools.com/go/" method="get" accept-charset="utf-8")
           %p
             %input(type="hidden" name="service" value="whois")
             %input(type="text" tabindex="1" name="q" value="" class="span-5")
-            %input(type="submit" value="Whois &#8594;" class="span-3")
+            %button(type="submit" class="span-3") Whois &#8594;
         %form(action="http://www.crh.noaa.gov/zipcity.php" method="post" accept-charset="utf-8")
           %p
             %input(type="text" tabindex="1" name="inputstring" value="" class="span-5")
-            %input(type="submit" value="Weather &#8594;" class="span-3")
+            %button(type="submit" class="span-3") Weather &#8594;
       #foot.span-24
         %p.small
           Copyright &#169; 1994-2014 John Parker
