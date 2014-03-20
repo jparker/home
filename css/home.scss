@@ -1,0 +1,52 @@
+body {
+  background-color: #ccc;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #999;
+  padding: 1em;
+}
+
+#head {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1em;
+
+  h1 {
+    color: #9b9;
+    font-weight: bold;
+
+    span {
+      color: #070;
+    }
+  }
+}
+
+#foot p {
+  color: #aaa;
+
+  a {
+    color: #aaa;
+
+    &:hover {
+      background-color: #ccc;
+      color: #666;
+      text-decoration: none;
+    }
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+a {
+  color: #070;
+
+  &:hover {
+    background: #bdb;
+    color: #070;
+    text-decoration: none;
+  }
+}
